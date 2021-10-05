@@ -1,0 +1,27 @@
+###
+GET http://localhost:8080
+
+###
+GET http://localhost:8080/cate
+Accept: application/json
+
+###
+POST http://localhost:8080/cate
+Accept: application/json
+
+{
+    "name":"Sara1",
+    
+}
+
+###
+PUT http://localhost:8080/cate/1
+Accept: application/json
+{
+   "name":"Sara2000",
+    "last_update":"2021-02-15 04:46:27" 
+}
+
+###
+DELETE http://localhost:8080/cate/1 
+Accept: application/json
